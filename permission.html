@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Permission Page</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; }
+    button { padding: 15px 30px; font-size: 18px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>📱 Permission Required!</h1>
+  <p>Press the button to grant access.</p>
+  <button onclick="grantPermission()">Open</button>
 
+  <script>
+    function grantPermission() {
+      alert("✅ Permission granted!");
+      // এখানে পারমিশন ট্র্যাক করার জন্য Ajax বা API কল করতে পারো
+    }
+  </script>
+</body>
+</html>
